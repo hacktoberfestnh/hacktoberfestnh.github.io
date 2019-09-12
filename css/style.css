@@ -1680,6 +1680,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 460px) {
+  #header #logo h1 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
   #subscribe button {
     margin-top: 10px;
   }
