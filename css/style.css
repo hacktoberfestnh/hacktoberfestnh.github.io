@@ -931,6 +931,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+#venue .venue-info h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
 #venue .venue-info p {
   color: #fff;
   margin-bottom: 0;
