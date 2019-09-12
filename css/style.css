@@ -414,7 +414,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: #FF00AA;
 }
 
 #mobile-nav ul li li {
@@ -507,6 +507,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+}
+
+#intro .intro-container .logo {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
 }
 
 #intro h1 {
@@ -1593,6 +1599,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+@media (max-width: 1300px) {
+  .github-fork-ribbon {
+    display: none;
+  }
+}
 @media (max-width: 1199px) {
   #header .container {
     max-width: 100%;
