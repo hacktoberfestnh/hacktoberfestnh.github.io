@@ -131,10 +131,13 @@ h6 {
 .section-header p {
   text-align: center;
   padding: 0;
-  margin: 0;
   font-size: 18px;
   font-weight: 500;
   color: #9195a2;
+}
+
+.section-header p:last-child {
+  margin: 0;
 }
 
 .section-with-bg {
@@ -1691,5 +1694,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .github-fork-ribbon:before{
-  background-color:#A11EC6;
+  background-color: #A11EC6;
 }
