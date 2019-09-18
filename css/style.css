@@ -1612,6 +1612,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
   }
 }
+
 @media (max-width: 1199px) {
   #header .container {
     max-width: 100%;
@@ -1619,6 +1620,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .nav-menu a {
     padding: 8px 4px;
+  }
+}
+
+@media (max-width: 1075px) {
+  #header #logo h1 {
+    font-size: 28px;
+    line-height: 28px;
   }
 }
 
@@ -1687,10 +1695,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 440px) {
   #header #logo h1 {
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 24px;
+    line-height: 24px;
   }
 
   #subscribe button {
