@@ -1623,10 +1623,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 1075px) {
+@media (max-width: 1115px) {
   #header #logo h1 {
     font-size: 28px;
     line-height: 28px;
+  }
+}
+
+@media (max-width: 1045px) {
+  #header #logo h1 {
+    font-size: 24px;
+    line-height: 24px;
   }
 }
 
@@ -1636,6 +1643,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
+  }
+
+  #header #logo h1 {
+    font-size: 36px;
+    line-height: 36px;
   }
 
   #nav-menu-container {
