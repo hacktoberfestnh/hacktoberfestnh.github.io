@@ -836,6 +836,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 100px;
 }
 
+#schedule .section-header p > span.text-muted {
+  font-size: 16px;
+  line-height: 16px;
+}
+
 #schedule .nav-tabs a.active {
   background-color: #A11EC6;
   color: #fff;

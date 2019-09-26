@@ -11,8 +11,10 @@ https://hacktoberfestnh.github.io
 
 ## How to run
 
-You can just open the `index.html` file or use a simple HTTP server. Suggestions:
+You can just open the `index.html` file or use a simple HTTP server.
 
-- Usually on Linux distros you can use the built-in `python2 -m SimpleHTTPServer 8000`
+Suggestions:
+
+- Python built-in web server `python2 -m SimpleHTTPServer 8000`
 - [🔗 Serve](https://www.npmjs.com/package/serve)
 - [🔗 HTTP-Server](https://www.npmjs.com/package/http-server)
