@@ -35,12 +35,12 @@ jQuery(document).ready(function( $ ) {
   new WOW().init();
 
   // Initialize Venobox
-  $('.venobox').venobox({
+  /*$('.venobox').venobox({
     bgcolor: '',
     overlayColor: 'rgba(6, 12, 34, 0.85)',
     closeBackground: '',
     closeColor: '#fff'
-  });
+  });*/
 
   // Initiate superfish on nav menu
   $('.nav-menu').superfish({
@@ -125,14 +125,14 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Gallery carousel (uses the Owl Carousel library)
-  $(".gallery-carousel").owlCarousel({
+  /*$(".gallery-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
     center:true,
     responsive: { 0: { items: 1 }, 768: { items: 3 }, 992: { items: 4 }, 1200: {items: 5}
     }
-  });
+  });*/
 
   // Buy tickets select the ticket type on click
   $('#buy-ticket-modal').on('show.bs.modal', function (event) {
