@@ -308,7 +308,7 @@ h6 {
   width: 100%;
 }
 
-.nav-menu li.buy-tickets a {
+.nav-menu li.register a {
   color: #fff;
   background: #A11EC6;
   padding: 7px 22px;
@@ -322,12 +322,12 @@ h6 {
   font-size: 13px;
 }
 
-.nav-menu li.buy-tickets a:hover {
+.nav-menu li.register a:hover {
   background: none;
 }
 
-.nav-menu li.buy-tickets:hover a:before,
-.nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.register:hover a:before,
+.nav-menu li.register.menu-active a:before {
   visibility: hidden;
 }
 
@@ -1179,7 +1179,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #ddd;
 }
 
-#faq #faq-list a {
+#faq #faq-list li > a {
   padding: 18px 0;
   display: block;
   position: relative;
@@ -1190,7 +1190,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-right: 20px;
 }
 
-#faq #faq-list i {
+#faq #faq-list i.plus {
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -1198,6 +1198,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list p {
+  color: #9195a2;
   margin-bottom: 20px;
 }
 
@@ -1206,7 +1207,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #FFF;
 }
 
 #faq #faq-list a.collapsed i::before {
@@ -1271,46 +1272,46 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Buy Tickets Section
 --------------------------------------------------------------*/
 
-#buy-tickets {
+#register {
   padding: 60px 0;
 }
 
-#buy-tickets .card {
+#register .card {
   border: none;
   border-radius: 5px;
   transition: all  0.3s ease-in-out;
   box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
-#buy-tickets .card:hover {
+#register .card:hover {
   box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
-#buy-tickets .card hr {
+#register .card hr {
   margin: 25px 0;
 }
 
-#buy-tickets .card .card-title {
+#register .card .card-title {
   margin: 10px 0;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-#buy-tickets .card .card-price {
+#register .card .card-price {
   font-size: 48px;
   margin: 0;
 }
 
-#buy-tickets .card ul li {
+#register .card ul li {
   margin-bottom: 20px;
 }
 
-#buy-tickets .card .text-muted {
+#register .card .text-muted {
   opacity: 0.7;
 }
 
-#buy-tickets .card .btn {
+#register .card .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1320,16 +1321,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#buy-tickets .card .btn:hover {
+#register .card .btn:hover {
   background-color: #e0072f;
 }
 
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
+#register #buy-ticket-modal input,
+#register #buy-ticket-modal select {
   border-radius: 0;
 }
 
-#buy-tickets #buy-ticket-modal .btn {
+#register #buy-ticket-modal .btn {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
@@ -1339,7 +1340,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#buy-tickets #buy-ticket-modal .btn:hover {
+#register #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
 }
 
