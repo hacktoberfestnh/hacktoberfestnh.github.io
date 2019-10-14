@@ -172,13 +172,13 @@ h6 {
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -210,6 +210,10 @@ h6 {
   list-style: none;
 }
 
+.nav-menu {
+  margin-top: 6px;
+}
+
 .nav-menu ul {
   position: absolute;
   display: none;
@@ -221,10 +225,6 @@ h6 {
 .nav-menu li {
   position: relative;
   white-space: nowrap;
-}
-
-.nav-menu > li {
-  float: left;
 }
 
 .nav-menu li:hover > ul,
@@ -270,7 +270,7 @@ h6 {
 /* Nav Meu Styling */
 
 .nav-menu a {
-  padding: 8px;
+  padding: 5px;
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
@@ -281,12 +281,26 @@ h6 {
 }
 
 .nav-menu .menu-active a,
-.nav-menu a:hover {
+.nav-menu a:hover,
+.nav-menu .menu-active a.dropdown-toggle,
+.nav-menu a.dropdown-toggle:hover {
   color: #fff;
 }
 
+.nav-menu a.dropdown-item:active,
+.nav-menu a.dropdown-item:hover {
+  background: #152346;
+  color: #A11EC6;
+}
+
+.nav-menu a.dropdown-item {
+  color: #9ea1b0;
+  padding: 8px;
+}
+
 .nav-menu > li {
-  margin-left: 8px;
+  margin-left: 1px;
+  float: left;
 }
 
 .nav-menu > li > a:before {
@@ -317,7 +331,6 @@ h6 {
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
-  margin-top: 2px;
   line-height: 1;
   font-size: 13px;
 }
@@ -418,6 +431,17 @@ h6 {
   width: 100%;
   display: block;
   outline: none;
+}
+
+
+#mobile-nav .dropdown-menu.show {
+  left: 5px !important;
+}
+
+.dropdown-menu.show:hover,
+.dropdown-menu.active,
+.dropdown-menu.show {
+  background: #152346;
 }
 
 #mobile-nav ul li a:hover {
@@ -1666,8 +1690,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1045px) {
   #header #logo h1 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 37px;
   }
 }
 
@@ -1743,8 +1767,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 440px) {
   #header #logo h1 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 27px;
   }
 
   #subscribe button {
